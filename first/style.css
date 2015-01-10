@@ -1,0 +1,105 @@
+/** {
+	outline: 1px solid red;
+}*/
+	
+html, body{ 
+	margin: 0 auto; 
+	border: 0 none; 
+	height: 100%;
+}
+
+body { 
+	background: #DDDDDD;
+	padding-top: 2%;
+	position: relative;
+}
+
+.container-top {
+	width: 80%;
+	height: 90%;
+	background: #FFFFFF;
+	margin: auto;
+	padding: 2%; 
+}
+
+.header {
+	height: 20%;
+	margin: 10px auto;
+	overflow: hidden;
+}
+
+.container-middle {
+	height: 40%;
+}
+
+.container-bottom {
+	height: 20%;
+	margin-top: 2%;
+}
+
+.top {
+	height: 100%;
+	width: 32%;
+	margin-right: 2%;
+	display: inline-block;
+	float: left;
+
+}
+
+.middle1 {
+	height:100%;
+	width: 30%;
+	display: inline-block;
+	float: left;
+}
+
+.middle2 {
+	height:100%;
+	width: 70%;
+	display: inline-block;
+	float: left;
+}
+
+.bottom1 {
+	height: 100%;
+	width: 70%;
+	display: inline-block;
+	float: left;
+}
+
+.bottom2 {
+	height: 100%;
+	width: 2%;
+	display: inline-block;
+	float: left;
+}
+
+.bottom3 {
+	height: 100%;
+	width: 26%;
+	display: inline-block;
+	float: left;
+}
+
+.bottom4 {
+	height: 100%;
+	width: 2%;
+	display: inline-block;
+	float: left;
+}
+
+
+span.text { 
+	display: block;
+	color: black; 
+	font-family: arial;  
+	font-size: 18px;  
+	line-height: 20px;
+	padding: 40px;
+}
+  	  
+.blue { background-color: #4A90E2; }
+.black { background-color: #4A4A4A; margin-right: 0px;}
+.red { background-color: #D0021B; }
+
+
