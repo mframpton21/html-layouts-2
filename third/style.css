@@ -14,15 +14,67 @@ body {
 	font-family: "Arial";
 }
 
+h1 {
+	width: 40%;
+}
+
 .container {
 	border: 1px solid #bbb;
 	box-shadow: 0 0 10px #999;	
 	width: 50%;
 	height: 80%;
-	background: #D8D8D8;
+	background: #DDDDDD;
 	margin: auto;
-	padding: 2%; 
 }
+
+.header {
+	width: 100%;
+	height: 20%;
+	background: #333333;
+	text-align: right;
+	color: #FFFFFF;
+	font-size: 30px;	
+}
+
+.footer {
+	width: 100%;
+	height: 20%;
+	background: #333333;
+	text-align: right;
+	color: #FFFFFF;
+	font-size: 30px;	
+}
+.bodyContainer {
+	height: 90%;
+	padding: 2%;
+	background: #FFFFFF;
+}
+
+.body {
+	background: #FFFFFF;
+	display: inline-block;
+
+}
+
+.column1 {
+	width: 50%;
+	float: left;
+}
+
+.column2 {
+	width: 50%;	
+	float: right;
+}
+
+.image {
+	height: 200px;
+	background: #4A4A4A;
+	background-image: url("http://ds.serving-sys.com/BurstingRes///Site-66363/Type-0/139b0c5b-9a60-40a1-bb92-06f6a74e1634.jpg");
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	padding-top: 10%;
+}
+/*
 
 .box1 {
 	height: 30%;
@@ -76,3 +128,4 @@ body {
 .blue { background-color: #4A90E2; }
 .red { background-color: #D0021B; margin-left: 40px;}
 
+*/
