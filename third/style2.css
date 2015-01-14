@@ -1,0 +1,33 @@
+/** {
+	outline: 1px solid red;
+}*/
+	
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.nav {
+    width: 100%;
+    height: 20%;
+    background: #333333;
+}
+
+.container {
+    width: 100%;
+    height: 60%;
+    overflow: auto;
+}
+
+.container__child {
+    padding: 20px;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.article-image {
+    width: 100%;
+    height: auto;
+}
